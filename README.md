@@ -1,5 +1,5 @@
 # raspberry
-树莓派脚本
+树莓派常用脚本
 
 ras.py 获取当前树莓派状态并利用pushplus推送
 
