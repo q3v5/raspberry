@@ -60,9 +60,6 @@ DISK_total = DISK_stats[0]
 DISK_used = DISK_stats[1]
 DISK_perc = DISK_stats[3]
 
-# encoding:utf-8
-token = '27e55baa41434cb9a07b6cfea2696044'  # 在pushpush网站中可以找到
-
 # message
 msg = ("CPU温度为："'%s' % CPU_temp + "℃"
         + "<br />CPU占用率："'%s' % CPU_usage + "%"
