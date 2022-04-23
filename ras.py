@@ -72,7 +72,7 @@ msg = ("CPU温度为："'%s' % CPU_temp + "℃"
         + "<br />磁盘总量为："'%s' % DISK_total + "B"
         + "<br />磁盘已使用："'%s' % DISK_used + "B"
         + "<br />磁盘占用率："'%s' % DISK_perc)
-url = 'http://www.pushplus.plus/send?token=27e55baa41434cb9a07b6cfea2696044&content={}&template=markdown'.format(msg)
+url = 'http://www.pushplus.plus/send?token=你自己的token&content={}&template=markdown'.format(msg)
 reqp = requests.get(url)
 if __name__ == '__main__':
     print('')
