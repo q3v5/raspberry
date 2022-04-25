@@ -10,7 +10,7 @@ def getip():
     finally:
         s.close()
     msg = ("当前IP：" + ip)
-    url = 'http://www.pushplus.plus/send?token=27e55baa41434cb9a07b6cfea2696044&content={}&template=markdown'.format(msg)
+    url = 'http://www.pushplus.plus/send?token=你的token={}&template=markdown'.format(msg)
     reqp = requests.get(url)
 #使用sudo nano /etc/rc.local 在exit0之前添加运行即可开机自动发送IP    
 
